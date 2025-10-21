@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 30px;
+    width: 400px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #0059b3;
+}
+
+h2 {
+    color: #222;
+}
+
+.msg {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.action-form {
+    margin: 10px 0;
+}
+
+input {
+    padding: 8px;
+    width: 70%;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.deposit {
+    background-color: #4CAF50;
+}
+
+.withdraw {
+    background-color: #e74c3c;
+}
+
+.link-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #0059b3;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-btn:hover {
+    background-color: #0073e6;
+}
+
+table.data {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.data th, table.data td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+table.data th {
+    background-color: #f0f0f0;
+}

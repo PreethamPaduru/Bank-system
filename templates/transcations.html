@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transactions | Python Bank</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>💰 Transaction History</h1>
+        {% if tables %}
+            {% for table in tables %}
+                {{ table | safe }}
+            {% endfor %}
+        {% else %}
+            <p>No transactions yet.</p>
+        {% endif %}
+        <br>
+        <a href="/" class="link-btn">Back to Home</a>
+    </div>
+</body>
+</html>
